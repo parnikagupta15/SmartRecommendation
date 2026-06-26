@@ -1,0 +1,55 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data
+data/raw/*.csv
+data/processed/*
+data/test/*
+
+# Models
+models/
+*.pkl
+*.h5
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# MLflow
+mlruns/
+.mlflow/
+
+# Experiments
+experiments/artifacts
+experiments/mlruns
+
+# OS
+.DS_Store
+Thumbs.db
