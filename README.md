@@ -59,6 +59,30 @@ FastAPI for REST API
 Docker for containerization
 MLflow for experiment tracking
 PostgreSQL for data storage
+## 🚀 Live Demo
+
+**API is now LIVE and publicly accessible!**
+
+- **API Endpoint:** https://smartrecommendation-j9x5.onrender.com
+- **Interactive Docs:** https://smartrecommendation-j9x5.onrender.com/docs
+- **Health Check:** https://smartrecommendation-j9x5.onrender.com/health
+
+### Try the API
+
+```bash
+# Get recommendations
+curl -X POST "https://smartrecommendation-j9x5.onrender.com/recommendations" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "user_id": 5,
+    "n_recommendations": 10,
+    "model_type": "ensemble",
+    "exclude_purchased": true
+  }'
+
+# Check health
+curl https://smartrecommendation-j9x5.onrender.com/health
+```
 Author
 Parnika Gupta
 License
