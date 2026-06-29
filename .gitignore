@@ -13,16 +13,16 @@ __pycache__/
 dist/
 build/
 
-# Data
-data/raw/*.csv
-data/processed/*
-data/test/*
+# Data - ALLOWING TO PUSH (commented out)
+# data/raw/*.csv
+# data/processed/*
+# data/test/*
 
-# Models
-models/
-*.pkl
-*.h5
-*.pt
+# Models - ALLOWING TO PUSH (commented out)
+# models/
+# *.pkl
+# *.h5
+# *.pt
 
 # Jupyter
 .ipynb_checkpoints/
